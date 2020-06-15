@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.ncertclass.mathsolutions">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        android:largeHeap="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3780736957915970~2302408408"/>
+
+
+        <activity android:name="com.ncertclass.mathsolutions.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOne" />
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneA"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneB"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneC"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneD"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneE"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneF"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneG"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneH"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneI"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneJ"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneK"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneL"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneM"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityOneN"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwo"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoA"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoB"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoC"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoD"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoE"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoF"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoG"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoH"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoI"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoJ"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoK"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoL"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoM"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoN"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityTwoO"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThree"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeA"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeB"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeC"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeD"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeE"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeF"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeG"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeH"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeI"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeJ"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeK"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeL"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeM"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeN"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeO"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityThreeP"/>
+
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFour"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourA"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourB"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourC"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourD"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourE"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourF"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourG"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourH"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourI"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourJ"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourK"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourL"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourM"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourN"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFourO"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFive"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveA"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveB"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveC"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveD"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveE"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveF"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveG"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveH"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveI"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveJ"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveK"/>
+
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveL"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveM"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveN"/>
+        <activity android:name="com.ncertclass.mathsolutions.ActivityFiveO"/>
+
+
+    </application>
+
+</manifest>
